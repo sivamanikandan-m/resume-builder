@@ -1,16 +1,104 @@
-# React + Vite
+# 📄 Resume Builder – React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An **ATS-friendly Resume Builder** built with **React** that allows users to create, preview, and download professional resumes in PDF format.  
+The application features a modern dark UI, real-time preview, and pixel-perfect PDF export using `html2pdf.js`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔗 Live Demo
 
-## React Compiler
+👉 **Live Site:** https://siva-resume-builder.netlify.app/
+👉 **GitHub Repo:** https://github.com/sivamanikandan-m/resume-builder 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📝 Dynamic form-based resume creation
+- 👀 Real-time resume preview
+- 📄 Download resume as ATS-friendly PDF
+- 🎨 Modern dark-themed UI
+- 🧩 Modular React component architecture
+- ⚡ Fast build using Vite
+- 💾 Data persistence using browser storage
+- ✅ Optional sections (Experience, Projects, etc.)
+- 📱 Responsive and clean layout
+
+---
+
+### 🛠️ Tech Stack
+
+- **Frontend:** React JS
+- **Build Tool:** Vite
+- **Styling:** CSS (custom dark theme)
+- **PDF Export:** html2pdf.js
+- **State Management:** React Hooks
+- **Deployment:** Netlify
+
+---
+
+### 🚀 Getting Started (Run Locally)
+
+### 1️⃣ Clone the repository
+
+git clone https://github.com/sivamanikandan-m/resume-builder.git
+cd resume-builder
+
+### 2️⃣ Install dependencies
+
+npm install
+
+### 3️⃣ Start development server
+npm run dev
+
+### The app will run at:
+
+http://localhost:5173
+
+### 📦 Build for Production
+
+npm run build
+
+This generates the dist/ folder for deployment.
+
+---
+
+### 🖨️ PDF Download Notes
+
+Resume layout optimized for A4 size
+
+Pixel-based sizing ensures preview and PDF alignment
+
+Consistent margins with no layout shift during download
+
+---
+
+### 📌 Use Case
+
+This project is useful for:
+
+Freshers creating professional resumes
+
+Developers showcasing frontend Backend skills
+
+Portfolio projects demonstrating real-world UI and PDF handling
+
+---
+
+### 👨‍💻 Author
+
+Siva Manikandan M,
+
+Java Full Stack Developer
+
+---
+
+### 📜 License
+
+This project is open-source and available for learning and personal use.
+
+---
+
+### ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
